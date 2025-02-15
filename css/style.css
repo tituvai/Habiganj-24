@@ -1,0 +1,165 @@
+/* All commone Css Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+
+/* All Common Css End */
+
+/* Header Part Start */
+#headerPart{
+    padding: 20px 0;
+}
+.headerFlex{
+    text-align: center;
+    align-items: center;
+}
+.headerIcon{
+    display: flex; 
+}
+.headerIcon i{
+    font-size: 30px;
+    color: #6B7280;
+    padding: 0 20px;
+}
+.headerIcon h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #6B7280; 
+}
+.headerTime h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #6B7280;
+    line-height: 25px;
+}
+.searchBtn a{
+    font-size: 30px;
+    padding: 10px 20px;
+    background: #00bfff;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+/* Header Part End */
+
+
+/* navbar Part Start */
+.navbar {
+    background: #00bfff;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+   margin: 10px 30px;
+}
+.nav-link:hover{
+    color: 	#0000ff;
+}
+
+.dropdown-menu{
+    background: #00bfff;
+}
+.dropdown-item{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* navbar Part End */
+
+
+/* Banner Part Start */
+#bannerPart{
+    padding: 100px 0;
+}
+.bannerBorder{
+    padding: 30px 0;
+    border-top: 1px solid #4444;
+    border-bottom: 1px solid #4444;
+}
+.bannerLeft{
+padding-right: 10px;
+}
+.bannerLeft img{
+    width: 100%;
+}
+.bannerLeft h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+   padding: 15px 0;
+}
+.borderRight{
+    border-left: 1px solid #4444;
+}
+.bannerLeft p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.banner img{
+    width: 100%;
+}
+.banner h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #330000;
+    padding: 15px 0;
+}
+.banner p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.bannerRight{
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+padding: 10px;
+}
+.bannerRight img{
+    width: 100%;
+}
+.bannerRight h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #000000;
+}
+/* Banner Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
