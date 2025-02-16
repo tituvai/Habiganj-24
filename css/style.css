@@ -63,6 +63,11 @@ h1, h2, h3, h4, h5, h6, p{
 /* navbar Part Start */
 .navbar {
     background: #00bfff;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+  
 }
 .nav-link{
     font-size: 20px;
@@ -106,6 +111,7 @@ padding-right: 10px;
     font-weight: 700;
     line-height: 150%;
    padding: 15px 0;
+   color: #02121c;
 }
 .borderRight{
     border-left: 1px solid #4444;
@@ -113,7 +119,8 @@ padding-right: 10px;
 .bannerLeft p{
     font-size: 15px;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 180%;
+    color: #02121c;
 }
 
 .banner img{
@@ -129,13 +136,15 @@ padding-right: 10px;
 .banner p{
     font-size: 15px;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 180%; 
+    color: #02121c;
 }
 .bannerRight{
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
 padding: 10px;
+margin-bottom: 10px;
 }
 .bannerRight img{
     width: 100%;
@@ -149,17 +158,394 @@ padding: 10px;
 /* Banner Part End */
 
 
-/* Header Part Start */
-/* Header Part End */
+/* National Part Start */
+
+#nationalPart{
+    padding: 30px 0;
+}
+.nationalTitle{
+    text-align: center;
+    padding: 30px 0;
+}
+.nationalTitle h3{
+  font-size: 30px;
+  font-weight: 700;
+  color: #00bfff;
+  position: relative;
+}
+.nationalTitle h3::after{
+    position: absolute;
+    height: 1px;
+    width: 560px;
+    background: #4444;
+    top: 10px;
+    left: 0;
+    content: "";
+}
+.nationalTitle h3::before{
+    position: absolute;
+    height: 1px;
+    width: 560px;
+    background: #4444;
+    top: 10px;
+    right: 0;
+    content: "";
+}
+.nationalText{
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+padding: 10px;
+border-radius: 5px;
+}
+.nationalText img{
+    width: 100%;
+   
+}
+.nationalText h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #000000; 
+    padding: 15px 0;
+}
+.nationalText p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; 
+    color: #000000; 
+    line-height: 180%;
+    
+}
+/* National Part End */
 
 
-/* Header Part Start */
-/* Header Part End */
+/* Pokitely Part Start */
 
 
-/* Header Part Start */
-/* Header Part End */
+#politelyPart{
+    padding-bottom: 50px;
+}
+
+.politelyBackground{
+    background: url(../images/politect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+.overley{
+   padding-top: 150px;
+   padding-bottom: 200px;
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+.overlyText h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.overlyText h6{
+    color: #ffffff; 
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.politelyImages{
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+ 
+}
+.politelyImages img{
+    width: 100%;
+}
+.politelyImages h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #000000; 
+    padding: 20px 10px 15px 10px;
+}
+.politelyImages p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; 
+    color: #000000; 
+    line-height: 180%;
+    padding: 0px 10px 15px 10px; 
+}
+/* Pokitely Part End */
 
 
-/* Header Part Start */
-/* Header Part End */
+/* International Part Start */
+
+#internationalPart{
+    padding-bottom: 50px;
+}
+
+.international{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+margin-top: 20px;
+}
+.internationalImg img{
+    width: 100%;
+}
+.internationalText h3{
+    font-size: 17px;
+    font-weight: 700;
+    color: #02121c;
+    line-height: 150%;
+    padding: 10px 5px 10px 0px;
+}
+
+
+/* International Part End */
+
+
+/* Footer Part Start */
+
+#footerPart{
+    padding: 100px 0;
+    background: black;
+    position: relative;
+}
+
+.footerText h2{
+    font-size: 27px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.footerLogo img{
+    width: 100%;
+}
+.footerText h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 180%;
+    padding-left: 60px;
+}
+.contacnt{
+    padding-top: 30px;
+}
+.contacnt i{
+    font-size: 18px;
+    color: #ffffff;
+}
+.contacnt span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #ffffff;
+}
+.location h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-left: 50px;
+    line-height: 150%;
+    color: #ffffff;
+}
+.footerScroll{
+    width: 100%;
+    padding: 10px 0;
+    background: #990000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.footerScroll a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.footerHedline{
+    width: 200px;
+    padding: 20px 0;
+    background: #330000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.footerHedline h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 20px;
+    
+}
+/* Footer Part End */
+
+
+
+
+
+
+
+
+/* ****************************National Main Part Start**************************** */
+/* National Banner Part Start */
+#nationalBanner{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.homeTitle{
+    padding: 20px;
+    border-bottom: 3px solid #990000;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.homeTitle i{
+    font-size: 20px;
+    font-weight: 600;
+    color: #00ffff;
+    padding-left: 3px;
+}
+.homeTitle h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #00bfff;
+    margin-left: -15px;
+}
+
+
+.nationalBannerText{
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+padding: 10px;
+border-radius: 5px;
+}
+.nationalBannerText img{
+    width: 100%;
+   
+}
+.nationalBannerText h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #000000; 
+    padding: 15px 0;
+}
+.nationalBannerText p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%; 
+    color: #000000; 
+    line-height: 180%;
+    
+}
+
+.natinol{
+    padding: 25px;
+    border-top: 3px solid #990000;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75); 
+}
+.natinol h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #00bfff;
+}
+
+.nationalFlex{
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+.nationalRight h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #02121c;
+    line-height: 150%;
+}
+.nationalRight img{
+    width: 100%;
+}
+/* National Banner Part End */
+
+/* ****************************National Main Part End**************************** */
+
+
+
+
+
+
+/* ****************************National Main Part Start**************************** */
+/* international Banner Part Start */
+
+.internationalBanner{
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.internationalBanner img{
+    width: 100%;
+}
+.internationalBanner h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #02121c;
+    line-height: 150%;
+    padding: 10px 0;
+}
+.internationalBanner p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #02121c;
+    line-height: 150%;
+}
+.internatinalImages{
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    border-radius: 5px;
+}
+.internatinalImages img{
+    width: 100%;
+}
+.internatinalImages h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: #02121c;
+    line-height: 150%;
+    padding: 10px 0;
+}
+.internatinalImages p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #02121c;
+    line-height: 150%;
+}
+/* international Banner Part End */
+
+/* ****************************National Main Part End**************************** */
+
+
+
+
+
+
+
+
+
+/* ****************************National Main Part Start**************************** */
+/* National Banner Part Start */
+/* National Banner Part End */
+
+/* ****************************National Main Part End**************************** */
